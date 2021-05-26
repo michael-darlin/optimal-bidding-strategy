@@ -1,0 +1,2173 @@
+/**
+ * @file Records the ABI for contracts associated to the MakerDAO project
+ */
+
+// Contract name: Flipper
+// Main address: 0xd8a04F5412223F513DC55F839574430f5EC15531
+// Kovan adddress: 0xB40139Ea36D35d0C9F6a2e62601B616F1FfbBD1b
+const flipper = [{
+    inputs: [{
+        internalType: "address",
+        name: "vat_",
+        type: "address"
+    }, {
+        internalType: "bytes32",
+        name: "ilk_",
+        type: "bytes32"
+    }],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "constructor"
+}, {
+    anonymous: false,
+    inputs: [{
+        indexed: false,
+        internalType: "uint256",
+        name: "id",
+        type: "uint256"
+    }, {
+        indexed: false,
+        internalType: "uint256",
+        name: "lot",
+        type: "uint256"
+    }, {
+        indexed: false,
+        internalType: "uint256",
+        name: "bid",
+        type: "uint256"
+    }, {
+        indexed: false,
+        internalType: "uint256",
+        name: "tab",
+        type: "uint256"
+    }, {
+        indexed: true,
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }, {
+        indexed: true,
+        internalType: "address",
+        name: "gal",
+        type: "address"
+    }],
+    name: "Kick",
+    type: "event"
+}, {
+    anonymous: true,
+    inputs: [{
+        indexed: true,
+        internalType: "bytes4",
+        name: "sig",
+        type: "bytes4"
+    }, {
+        indexed: true,
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }, {
+        indexed: true,
+        internalType: "bytes32",
+        name: "arg1",
+        type: "bytes32"
+    }, {
+        indexed: true,
+        internalType: "bytes32",
+        name: "arg2",
+        type: "bytes32"
+    }, {
+        indexed: false,
+        internalType: "bytes",
+        name: "data",
+        type: "bytes"
+    }],
+    name: "LogNote",
+    type: "event"
+}, {
+    constant: true,
+    inputs: [],
+    name: "beg",
+    outputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    name: "bids",
+    outputs: [{
+        internalType: "uint256",
+        name: "bid",
+        type: "uint256"
+    }, {
+        internalType: "uint256",
+        name: "lot",
+        type: "uint256"
+    }, {
+        internalType: "address",
+        name: "guy",
+        type: "address"
+    }, {
+        internalType: "uint48",
+        name: "tic",
+        type: "uint48"
+    }, {
+        internalType: "uint48",
+        name: "end",
+        type: "uint48"
+    }, {
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }, {
+        internalType: "address",
+        name: "gal",
+        type: "address"
+    }, {
+        internalType: "uint256",
+        name: "tab",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "uint256",
+        name: "id",
+        type: "uint256"
+    }],
+    name: "deal",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "uint256",
+        name: "id",
+        type: "uint256"
+    }, {
+        internalType: "uint256",
+        name: "lot",
+        type: "uint256"
+    }, {
+        internalType: "uint256",
+        name: "bid",
+        type: "uint256"
+    }],
+    name: "dent",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }],
+    name: "deny",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "bytes32",
+        name: "what",
+        type: "bytes32"
+    }, {
+        internalType: "uint256",
+        name: "data",
+        type: "uint256"
+    }],
+    name: "file",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "ilk",
+    outputs: [{
+        internalType: "bytes32",
+        name: "",
+        type: "bytes32"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }, {
+        internalType: "address",
+        name: "gal",
+        type: "address"
+    }, {
+        internalType: "uint256",
+        name: "tab",
+        type: "uint256"
+    }, {
+        internalType: "uint256",
+        name: "lot",
+        type: "uint256"
+    }, {
+        internalType: "uint256",
+        name: "bid",
+        type: "uint256"
+    }],
+    name: "kick",
+    outputs: [{
+        internalType: "uint256",
+        name: "id",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "kicks",
+    outputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }],
+    name: "rely",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "tau",
+    outputs: [{
+        internalType: "uint48",
+        name: "",
+        type: "uint48"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "uint256",
+        name: "id",
+        type: "uint256"
+    }, {
+        internalType: "uint256",
+        name: "lot",
+        type: "uint256"
+    }, {
+        internalType: "uint256",
+        name: "bid",
+        type: "uint256"
+    }],
+    name: "tend",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "uint256",
+        name: "id",
+        type: "uint256"
+    }],
+    name: "tick",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "ttl",
+    outputs: [{
+        internalType: "uint48",
+        name: "",
+        type: "uint48"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "vat",
+    outputs: [{
+        internalType: "contract VatLike",
+        name: "",
+        type: "address"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [{
+        internalType: "address",
+        name: "",
+        type: "address"
+    }],
+    name: "wards",
+    outputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "uint256",
+        name: "id",
+        type: "uint256"
+    }],
+    name: "yank",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}]
+
+// Contract name: OSM
+// Main address: 0x81FE72B5A8d1A857d176C3E7d5Bd2679A9B85763
+// Kovan adddress: 0x75dD74e8afE8110C8320eD397CcCff3B8134d981
+const osm = [{
+    inputs: [{
+        internalType: "address",
+        name: "src_",
+        type: "address"
+    }],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "constructor"
+}, {
+    anonymous: true,
+    inputs: [{
+        indexed: true,
+        internalType: "bytes4",
+        name: "sig",
+        type: "bytes4"
+    }, {
+        indexed: true,
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }, {
+        indexed: true,
+        internalType: "bytes32",
+        name: "arg1",
+        type: "bytes32"
+    }, {
+        indexed: true,
+        internalType: "bytes32",
+        name: "arg2",
+        type: "bytes32"
+    }, {
+        indexed: false,
+        internalType: "bytes",
+        name: "data",
+        type: "bytes"
+    }],
+    name: "LogNote",
+    type: "event"
+}, {
+    anonymous: false,
+    inputs: [{
+        indexed: false,
+        internalType: "bytes32",
+        name: "val",
+        type: "bytes32"
+    }],
+    name: "LogValue",
+    type: "event"
+}, {
+    constant: true,
+    inputs: [{
+        internalType: "address",
+        name: "",
+        type: "address"
+    }],
+    name: "bud",
+    outputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address",
+        name: "src_",
+        type: "address"
+    }],
+    name: "change",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }],
+    name: "deny",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address[]",
+        name: "a",
+        type: "address[]"
+    }],
+    name: "diss",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address",
+        name: "a",
+        type: "address"
+    }],
+    name: "diss",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "hop",
+    outputs: [{
+        internalType: "uint16",
+        name: "",
+        type: "uint16"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address[]",
+        name: "a",
+        type: "address[]"
+    }],
+    name: "kiss",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address",
+        name: "a",
+        type: "address"
+    }],
+    name: "kiss",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "pass",
+    outputs: [{
+        internalType: "bool",
+        name: "ok",
+        type: "bool"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "peek",
+    outputs: [{
+        internalType: "bytes32",
+        name: "",
+        type: "bytes32"
+    }, {
+        internalType: "bool",
+        name: "",
+        type: "bool"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "peep",
+    outputs: [{
+        internalType: "bytes32",
+        name: "",
+        type: "bytes32"
+    }, {
+        internalType: "bool",
+        name: "",
+        type: "bool"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [],
+    name: "poke",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "read",
+    outputs: [{
+        internalType: "bytes32",
+        name: "",
+        type: "bytes32"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "address",
+        name: "usr",
+        type: "address"
+    }],
+    name: "rely",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "src",
+    outputs: [{
+        internalType: "address",
+        name: "",
+        type: "address"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [],
+    name: "start",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [{
+        internalType: "uint16",
+        name: "ts",
+        type: "uint16"
+    }],
+    name: "step",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [],
+    name: "stop",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "stopped",
+    outputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: false,
+    inputs: [],
+    name: "void",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [{
+        internalType: "address",
+        name: "",
+        type: "address"
+    }],
+    name: "wards",
+    outputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "zzz",
+    outputs: [{
+        internalType: "uint64",
+        name: "",
+        type: "uint64"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}];
+
+// Contract name: Cat
+// Main address: 0x78F2c2AF65126834c51822F56Be0d7469D7A523E
+// Kovan adddress: 0x0511674A67192FE51e86fE55Ed660eB4f995BDd6
+const cat = [{
+    "inputs": [{
+        "internalType": "address",
+        "name": "vat_",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+}, {
+    "anonymous": false,
+    "inputs": [{
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }, {
+        "indexed": true,
+        "internalType": "address",
+        "name": "urn",
+        "type": "address"
+    }, {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "ink",
+        "type": "uint256"
+    }, {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "art",
+        "type": "uint256"
+    }, {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "tab",
+        "type": "uint256"
+    }, {
+        "indexed": false,
+        "internalType": "address",
+        "name": "flip",
+        "type": "address"
+    }, {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+    }],
+    "name": "Bite",
+    "type": "event"
+}, {
+    "anonymous": true,
+    "inputs": [{
+        "indexed": true,
+        "internalType": "bytes4",
+        "name": "sig",
+        "type": "bytes4"
+    }, {
+        "indexed": true,
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg1",
+        "type": "bytes32"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg2",
+        "type": "bytes32"
+    }, {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+    }],
+    "name": "LogNote",
+    "type": "event"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "urn",
+        "type": "address"
+    }],
+    "name": "bite",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [],
+    "name": "cage",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "deny",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }, {
+        "internalType": "bytes32",
+        "name": "what",
+        "type": "bytes32"
+    }, {
+        "internalType": "uint256",
+        "name": "data",
+        "type": "uint256"
+    }],
+    "name": "file",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "what",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "data",
+        "type": "address"
+    }],
+    "name": "file",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }, {
+        "internalType": "bytes32",
+        "name": "what",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "flip",
+        "type": "address"
+    }],
+    "name": "file",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+    }],
+    "name": "ilks",
+    "outputs": [{
+        "internalType": "address",
+        "name": "flip",
+        "type": "address"
+    }, {
+        "internalType": "uint256",
+        "name": "chop",
+        "type": "uint256"
+    }, {
+        "internalType": "uint256",
+        "name": "lump",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "live",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "rely",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "vat",
+    "outputs": [{
+        "internalType": "contract VatLike",
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "vow",
+    "outputs": [{
+        "internalType": "contract VowLike",
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "wards",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}];
+
+// Contract name: Vat
+// Main address: 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B
+// Kovan adddress: 0xbA987bDB501d131f766fEe8180Da5d81b34b69d9
+const vat = [{
+    "inputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+}, {
+    "anonymous": true,
+    "inputs": [{
+        "indexed": true,
+        "internalType": "bytes4",
+        "name": "sig",
+        "type": "bytes4"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg1",
+        "type": "bytes32"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg2",
+        "type": "bytes32"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg3",
+        "type": "bytes32"
+    }, {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+    }],
+    "name": "LogNote",
+    "type": "event"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "Line",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [],
+    "name": "cage",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "can",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "dai",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "debt",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "deny",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }, {
+        "internalType": "bytes32",
+        "name": "what",
+        "type": "bytes32"
+    }, {
+        "internalType": "uint256",
+        "name": "data",
+        "type": "uint256"
+    }],
+    "name": "file",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "what",
+        "type": "bytes32"
+    }, {
+        "internalType": "uint256",
+        "name": "data",
+        "type": "uint256"
+    }],
+    "name": "file",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "src",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "dst",
+        "type": "address"
+    }, {
+        "internalType": "uint256",
+        "name": "wad",
+        "type": "uint256"
+    }],
+    "name": "flux",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "i",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "u",
+        "type": "address"
+    }, {
+        "internalType": "int256",
+        "name": "rate",
+        "type": "int256"
+    }],
+    "name": "fold",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "src",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "dst",
+        "type": "address"
+    }, {
+        "internalType": "int256",
+        "name": "dink",
+        "type": "int256"
+    }, {
+        "internalType": "int256",
+        "name": "dart",
+        "type": "int256"
+    }],
+    "name": "fork",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "i",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "u",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "v",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "w",
+        "type": "address"
+    }, {
+        "internalType": "int256",
+        "name": "dink",
+        "type": "int256"
+    }, {
+        "internalType": "int256",
+        "name": "dart",
+        "type": "int256"
+    }],
+    "name": "frob",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "gem",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "i",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "u",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "v",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "w",
+        "type": "address"
+    }, {
+        "internalType": "int256",
+        "name": "dink",
+        "type": "int256"
+    }, {
+        "internalType": "int256",
+        "name": "dart",
+        "type": "int256"
+    }],
+    "name": "grab",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "uint256",
+        "name": "rad",
+        "type": "uint256"
+    }],
+    "name": "heal",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "hope",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+    }],
+    "name": "ilks",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "Art",
+        "type": "uint256"
+    }, {
+        "internalType": "uint256",
+        "name": "rate",
+        "type": "uint256"
+    }, {
+        "internalType": "uint256",
+        "name": "spot",
+        "type": "uint256"
+    }, {
+        "internalType": "uint256",
+        "name": "line",
+        "type": "uint256"
+    }, {
+        "internalType": "uint256",
+        "name": "dust",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }],
+    "name": "init",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "live",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "src",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "dst",
+        "type": "address"
+    }, {
+        "internalType": "uint256",
+        "name": "rad",
+        "type": "uint256"
+    }],
+    "name": "move",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "nope",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "rely",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "sin",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "ilk",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "internalType": "int256",
+        "name": "wad",
+        "type": "int256"
+    }],
+    "name": "slip",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "u",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "v",
+        "type": "address"
+    }, {
+        "internalType": "uint256",
+        "name": "rad",
+        "type": "uint256"
+    }],
+    "name": "suck",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "urns",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "ink",
+        "type": "uint256"
+    }, {
+        "internalType": "uint256",
+        "name": "art",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "vice",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "wards",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}]
+
+// Contract name: GemJoin
+// Main address: 0x2f0b23f53734252bda2277357e97e1517d6b042a
+// Kovan adddress: 0x775787933e92b709f2a3C70aa87999696e74A9F8
+const ethJoin = [{
+    "inputs": [{
+        "internalType": "address",
+        "name": "vat_",
+        "type": "address"
+    }, {
+        "internalType": "bytes32",
+        "name": "ilk_",
+        "type": "bytes32"
+    }, {
+        "internalType": "address",
+        "name": "gem_",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+}, {
+    "anonymous": true,
+    "inputs": [{
+        "indexed": true,
+        "internalType": "bytes4",
+        "name": "sig",
+        "type": "bytes4"
+    }, {
+        "indexed": true,
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg1",
+        "type": "bytes32"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg2",
+        "type": "bytes32"
+    }, {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+    }],
+    "name": "LogNote",
+    "type": "event"
+}, {
+    "constant": false,
+    "inputs": [],
+    "name": "cage",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "dec",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "deny",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "internalType": "uint256",
+        "name": "wad",
+        "type": "uint256"
+    }],
+    "name": "exit",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "gem",
+    "outputs": [{
+        "internalType": "contract GemLike",
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "ilk",
+    "outputs": [{
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "internalType": "uint256",
+        "name": "wad",
+        "type": "uint256"
+    }],
+    "name": "join",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "live",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "rely",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "vat",
+    "outputs": [{
+        "internalType": "contract VatLike",
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "wards",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}]
+
+const medianEthUsd = [{
+    "anonymous": false,
+    "inputs": [{
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "val",
+        "type": "uint256"
+    }, {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "age",
+        "type": "uint256"
+    }],
+    "name": "LogMedianPrice",
+    "type": "event"
+}, {
+    "anonymous": true,
+    "inputs": [{
+        "indexed": true,
+        "internalType": "bytes4",
+        "name": "sig",
+        "type": "bytes4"
+    }, {
+        "indexed": true,
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg1",
+        "type": "bytes32"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg2",
+        "type": "bytes32"
+    }, {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+    }],
+    "name": "LogNote",
+    "type": "event"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "age",
+    "outputs": [{
+        "internalType": "uint32",
+        "name": "",
+        "type": "uint32"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "bar",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "bud",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "deny",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address[]",
+        "name": "a",
+        "type": "address[]"
+    }],
+    "name": "diss",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "a",
+        "type": "address"
+    }],
+    "name": "diss",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address[]",
+        "name": "a",
+        "type": "address[]"
+    }],
+    "name": "drop",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address[]",
+        "name": "a",
+        "type": "address[]"
+    }],
+    "name": "kiss",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "a",
+        "type": "address"
+    }],
+    "name": "kiss",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address[]",
+        "name": "a",
+        "type": "address[]"
+    }],
+    "name": "lift",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "orcl",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "peek",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }, {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "uint256[]",
+        "name": "val_",
+        "type": "uint256[]"
+    }, {
+        "internalType": "uint256[]",
+        "name": "age_",
+        "type": "uint256[]"
+    }, {
+        "internalType": "uint8[]",
+        "name": "v",
+        "type": "uint8[]"
+    }, {
+        "internalType": "bytes32[]",
+        "name": "r",
+        "type": "bytes32[]"
+    }, {
+        "internalType": "bytes32[]",
+        "name": "s",
+        "type": "bytes32[]"
+    }],
+    "name": "poke",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "read",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "rely",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "uint256",
+        "name": "bar_",
+        "type": "uint256"
+    }],
+    "name": "setBar",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+    }],
+    "name": "slot",
+    "outputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "wards",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "wat",
+    "outputs": [{
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}]
+
+// Contract name: DaiJoin
+// Main address: 0x9759A6Ac90977b93B58547b4A71c78317f391A28
+// Kovan adddress: 0x5AA71a3ae1C0bd6ac27A1f28e1415fFFB6F15B8c
+const daiJoin = [{
+    "inputs": [{
+        "internalType": "address",
+        "name": "vat_",
+        "type": "address"
+    }, {
+        "internalType": "address",
+        "name": "dai_",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+}, {
+    "anonymous": true,
+    "inputs": [{
+        "indexed": true,
+        "internalType": "bytes4",
+        "name": "sig",
+        "type": "bytes4"
+    }, {
+        "indexed": true,
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg1",
+        "type": "bytes32"
+    }, {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "arg2",
+        "type": "bytes32"
+    }, {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "data",
+        "type": "bytes"
+    }],
+    "name": "LogNote",
+    "type": "event"
+}, {
+    "constant": false,
+    "inputs": [],
+    "name": "cage",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "dai",
+    "outputs": [{
+        "internalType": "contract DSTokenLike",
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "deny",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "internalType": "uint256",
+        "name": "wad",
+        "type": "uint256"
+    }],
+    "name": "exit",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }, {
+        "internalType": "uint256",
+        "name": "wad",
+        "type": "uint256"
+    }],
+    "name": "join",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "live",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": false,
+    "inputs": [{
+        "internalType": "address",
+        "name": "usr",
+        "type": "address"
+    }],
+    "name": "rely",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [],
+    "name": "vat",
+    "outputs": [{
+        "internalType": "contract VatLike",
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "constant": true,
+    "inputs": [{
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+    }],
+    "name": "wards",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+}]
+
+module.exports = {
+	flipper,
+	osm,
+    cat,
+    vat,
+    ethJoin,
+    medianEthUsd,
+    daiJoin,
+};

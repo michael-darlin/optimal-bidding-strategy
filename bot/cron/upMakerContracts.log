@@ -1,0 +1,1950 @@
+
+06/08/2020 07:55:45 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+06/08/2020 07:55:45 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+06/08/2020 07:55:45 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+06/08/2020 07:55:45 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+06/08/2020 07:55:45 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+06/08/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/08/2020 20:00:11 seth-send: Published transaction with 4 bytes of calldata.
+06/08/2020 20:00:11 seth-send: 0x338ba793398ae9b79af6514b78f363aba4d651866f083fafafd7809a45cdce4d
+06/08/2020 20:00:11 seth-send: Waiting for transaction receipt...seth-rpc: {"id":1,"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0x338ba793398ae9b79af6514b78f363aba4d651866f083fafafd7809a45cdce4d"]}
+06/08/2020 20:00:11 seth-rpc: error: code -32000
+06/08/2020 20:00:11 seth-rpc: error: message Block information is incomplete while ancient block sync is still in progress, before it's finished we can't determine the existence of requested item.
+06/09/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/09/2020 20:00:09 seth-send: Published transaction with 4 bytes of calldata.
+06/09/2020 20:00:09 seth-send: 0x5f6637cc7f4311cb0df9ee4b4c0605e59ebdc659c9a75f3b572563b736cefe52
+06/09/2020 20:00:26 seth-send: Waiting for transaction receipt......
+06/09/2020 20:00:26 seth-send: Transaction included in block 18983527.
+06/10/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/10/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+06/10/2020 20:00:12 seth-send: 0x5d60f426fd4a9959af211ee3bf0cd4984c4a5890d3702e4855e2043e9f9414a4
+06/10/2020 20:00:23 seth-send: Waiting for transaction receipt.....
+06/10/2020 20:00:24 seth-send: Transaction included in block 19004202.
+06/11/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/11/2020 20:00:14 seth-send: Published transaction with 4 bytes of calldata.
+06/11/2020 20:00:14 seth-send: 0xf7212448e2856cfbeb83a484f46c43f2d0e1e55a5b823d5ec25292c433739fe1
+06/11/2020 20:00:20 seth-send: Waiting for transaction receipt....
+06/11/2020 20:00:21 seth-send: Transaction included in block 19021447.
+06/12/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/12/2020 20:00:11 seth-send: Published transaction with 4 bytes of calldata.
+06/12/2020 20:00:11 seth-send: 0x4a6c279b6070ab03d2e556ae1c23b23d78ed844beb601bce041ee1fde36430df
+06/12/2020 20:00:33 seth-send: Waiting for transaction receipt.......
+06/12/2020 20:00:34 seth-send: Transaction included in block 19038704.
+06/13/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/13/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+06/13/2020 20:00:12 seth-send: 0xdb2bd8a844769a6163b4d909fda1b2ee086e4ae82b6fb5580a0c5c221f1c7c79
+06/13/2020 20:00:18 seth-send: Waiting for transaction receipt....
+06/13/2020 20:00:18 seth-send: Transaction included in block 19055901.
+06/14/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/14/2020 20:00:10 seth-send: Published transaction with 4 bytes of calldata.
+06/14/2020 20:00:10 seth-send: 0xc57a0f92f116dfeee55a758dc05daacb40c3a1000e8c4da5cf9d2705540ce04c
+06/14/2020 20:00:21 seth-send: Waiting for transaction receipt.....
+06/14/2020 20:00:22 seth-send: Transaction included in block 19073168.
+06/15/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/15/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+06/15/2020 20:00:12 seth-send: 0xd5a44b74af7bf59ad94ec62662b49368b767e3152e563fd01df86d0d52607caa
+06/15/2020 20:00:19 seth-send: Waiting for transaction receipt....
+06/15/2020 20:00:20 seth-send: Transaction included in block 19090437.
+06/16/2020 20:00:0206/16/2020 20:00:02 Calling poke
+ Calling drip
+06/16/2020 20:00:05 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/16/2020 20:00:05 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/16/2020 20:00:12 seth-send: Published transaction with 36 bytes of calldata.
+06/16/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+06/16/2020 20:00:12 seth-send: 0x25217c59d3e96795c155ac122f29581352e44b9128db110264cf96c866108fd0
+06/16/2020 20:00:12 seth-send: 0xe01d6b4ed8bd1fad22161f436cc947ef6d516faf26a815046c98669fa4a871a9
+06/16/2020 20:00:24 seth-send: Waiting for transaction receipt.....
+06/16/2020 20:00:24 seth-send: Waiting for transaction receipt.....
+06/16/2020 20:00:24 seth-send: Transaction included in block 19107696.
+06/16/2020 20:00:24 seth-send: Transaction included in block 19107696.
+06/17/2020 20:00:03 Calling poke
+06/17/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/17/2020 20:00:11 seth-send: Published transaction with 4 bytes of calldata.
+06/17/2020 20:00:11 seth-send: 0xc9ed98df68687c74d534c908ed1f244c483f60dc39e5c3459488049d07259eef
+06/17/2020 20:00:17 seth-send: Waiting for transaction receipt....
+06/17/2020 20:00:18 seth-send: Transaction included in block 19124957.
+06/17/2020 20:01:01 Calling drip
+06/17/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/17/2020 20:01:02 seth-send: Published transaction with 36 bytes of calldata.
+06/17/2020 20:01:02 seth-send: 0xc55915d4be438350dd44780ca0988e8778420b8a41ec31b767df482708a0be79
+06/17/2020 20:01:13 seth-send: Waiting for transaction receipt.....
+06/17/2020 20:01:14 seth-send: Transaction included in block 19124968.
+06/18/2020 20:00:02 Calling poke
+06/18/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/18/2020 20:00:09 seth-send: Published transaction with 4 bytes of calldata.
+06/18/2020 20:00:09 seth-send: 0x555a82ba74f31ad140828c895c53a381e919afff45c706d677b775143476d6de
+06/18/2020 20:00:15 seth-send: Waiting for transaction receipt....
+06/18/2020 20:00:16 seth-send: Transaction included in block 19141518.
+06/18/2020 20:01:01 Calling drip
+06/18/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/18/2020 20:01:02 seth-send: Published transaction with 36 bytes of calldata.
+06/18/2020 20:01:02 seth-send: 0xea98f85b529ceb9a3f1ff19f2f6ccbb91ed8c86ac7a354a1fec34947c40fe079
+06/18/2020 20:01:13 seth-send: Waiting for transaction receipt.....
+06/18/2020 20:01:14 seth-send: Transaction included in block 19141529.
+06/19/2020 20:00:04 Calling poke
+06/19/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/19/2020 20:00:09 seth-send: Published transaction with 4 bytes of calldata.
+06/19/2020 20:00:09 seth-send: 0xaad892847b417558987c7c518cb9fc8dce57856d442f3592f027bc21b80fcc05
+06/19/2020 20:00:21 seth-send: Waiting for transaction receipt.....
+06/19/2020 20:00:21 seth-send: Transaction included in block 19158784.
+06/19/2020 20:01:02 Calling drip
+06/19/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/19/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+06/19/2020 20:01:03 seth-send: 0xfdda501e3929294d0bc859861b27bd134cae0722d861f43c679e9eb0b95dae17
+06/19/2020 20:01:14 seth-send: Waiting for transaction receipt.....
+06/19/2020 20:01:14 seth-send: Transaction included in block 19158794.
+06/20/2020 20:00:03 Calling poke
+06/20/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/20/2020 20:00:08 seth-send: Published transaction with 4 bytes of calldata.
+06/20/2020 20:00:08 seth-send: 0x8d6403fef7982bc327f69bb7b3501cf8c6eb73d2ec4379ab78dc2c35c77a0475
+06/20/2020 20:00:20 seth-send: Waiting for transaction receipt.....
+06/20/2020 20:00:21 seth-send: Transaction included in block 19176053.
+06/20/2020 20:01:01 Calling drip
+06/20/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/20/2020 20:01:02 seth-send: Published transaction with 36 bytes of calldata.
+06/20/2020 20:01:02 seth-send: 0x956223c3e8192bb27bce845baa47efe3561c4f50d69c14153fa8ec3b374ebeda
+06/20/2020 20:01:13 seth-send: Waiting for transaction receipt.....
+06/20/2020 20:01:14 seth-send: Transaction included in block 19176063.
+06/21/2020 20:00:02 Calling poke
+06/21/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/21/2020 20:00:09 seth-send: Published transaction with 4 bytes of calldata.
+06/21/2020 20:00:09 seth-send: 0xfc07473c890bd40238a54f1cbe64bb63bb522162a5bcedad97441e57a1f44a75
+06/21/2020 20:00:21 seth-send: Waiting for transaction receipt.....
+06/21/2020 20:00:22 seth-send: Transaction included in block 19194806.
+06/21/2020 20:01:01 Calling drip
+06/21/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/21/2020 20:01:02 seth-send: Published transaction with 36 bytes of calldata.
+06/21/2020 20:01:02 seth-send: 0xb5f1cc4b70a96af3cb75db5aca20dbe0c959d6971322bbe427d3c52d500a0123
+06/21/2020 20:01:08 seth-send: Waiting for transaction receipt....
+06/21/2020 20:01:08 seth-send: Transaction included in block 19194817.
+06/22/2020 20:00:02 Calling poke
+06/22/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/22/2020 20:00:09 seth-send: Published transaction with 4 bytes of calldata.
+06/22/2020 20:00:09 seth-send: 0xffaa2227795a35425d3122547a19a2330ea99a2513ee161d27a3c7538cf075ff
+06/22/2020 20:00:21 seth-send: Waiting for transaction receipt.....
+06/22/2020 20:00:21 seth-send: Transaction included in block 19215241.
+06/22/2020 20:01:02 Calling drip
+06/22/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/22/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+06/22/2020 20:01:04 seth-send: 0x331a4dcbe7ce4c75d119e1e32ca9b3a06ba970daec615045de566d1bcb7f909f
+06/22/2020 20:01:10 seth-send: Waiting for transaction receipt....
+06/22/2020 20:01:10 seth-send: Transaction included in block 19215252.
+06/23/2020 20:00:03 Calling poke
+06/23/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/23/2020 20:00:09 seth-send: Published transaction with 4 bytes of calldata.
+06/23/2020 20:00:09 seth-send: 0x2e037defa714aac6f823765a766745ba5387f6e18600d997ab5e2e4fcede69d5
+06/23/2020 20:00:20 seth-send: Waiting for transaction receipt.....
+06/23/2020 20:00:21 seth-send: Transaction included in block 19233510.
+06/23/2020 20:01:01 Calling drip
+06/23/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/23/2020 20:01:02 seth-send: Published transaction with 36 bytes of calldata.
+06/23/2020 20:01:02 seth-send: 0xd778f4feab89c1b2f39b223c4d8df8cb0a5320ea25941ec497ae13802cca7e53
+06/23/2020 20:01:13 seth-send: Waiting for transaction receipt.....
+06/23/2020 20:01:14 seth-send: Transaction included in block 19233520.
+06/24/2020 20:00:02 Calling poke
+06/24/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/24/2020 20:00:08 seth-send: Published transaction with 4 bytes of calldata.
+06/24/2020 20:00:08 seth-send: 0x8085aaf67d9edd86e7719898c8ad19c60b51fb35dbecab4a28634538584b9cf9
+06/24/2020 20:00:30 seth-send: Waiting for transaction receipt.......
+06/24/2020 20:00:30 seth-send: Transaction included in block 19248053.
+06/24/2020 20:01:02 Calling drip
+06/24/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/24/2020 20:01:02 seth-send: Published transaction with 36 bytes of calldata.
+06/24/2020 20:01:02 seth-send: 0x00a3802e3366c6a2058e18f05217586e3c4b3baf0c94deca3aed0f41a7173330
+06/24/2020 20:01:08 seth-send: Waiting for transaction receipt....
+06/24/2020 20:01:09 seth-send: Transaction included in block 19248061.
+06/25/2020 20:00:01 Calling poke
+06/25/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/25/2020 20:00:10 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/25/2020 20:01:01 Calling drip
+06/25/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/25/2020 20:01:03 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/26/2020 20:00:02 Calling poke
+06/26/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/26/2020 20:00:11 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/26/2020 20:01:01 Calling drip
+06/26/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/26/2020 20:01:03 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/27/2020 20:00:01 Calling poke
+06/27/2020 20:00:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/27/2020 20:00:07 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/27/2020 20:01:01 Calling drip
+06/27/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/27/2020 20:01:02 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/28/2020 20:00:02 Calling poke
+06/28/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/28/2020 20:00:12 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/28/2020 20:01:01 Calling drip
+06/28/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/28/2020 20:01:03 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/29/2020 20:00:03 Calling poke
+06/29/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/29/2020 20:00:13 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/29/2020 20:01:02 Calling drip
+06/29/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/29/2020 20:01:04 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/30/2020 20:00:02 Calling poke
+06/30/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/30/2020 20:00:11 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+06/30/2020 20:01:01 Calling drip
+06/30/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+06/30/2020 20:01:03 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/01/2020 20:00:02 Calling poke
+07/01/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/01/2020 20:00:12 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/01/2020 20:01:01 Calling drip
+07/01/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/01/2020 20:01:04 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/02/2020 20:00:02 Calling poke
+07/02/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/02/2020 20:00:12 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/02/2020 20:01:01 Calling drip
+07/02/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/02/2020 20:01:04 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/03/2020 20:00:02 Calling poke
+07/03/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/03/2020 20:00:13 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/03/2020 20:01:02 Calling drip
+07/03/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/03/2020 20:01:05 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/04/2020 20:00:01 Calling poke
+07/04/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/04/2020 20:01:01 Calling drip
+07/04/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/04/2020 20:02:15 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/04/2020 20:02:15 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/04/2020 20:02:15 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/04/2020 20:02:15 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/04/2020 20:02:15 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/04/2020 20:02:15 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/04/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/04/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/04/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/04/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/04/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/04/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/04/2020 20:04:26 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/04/2020 20:04:26 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/04/2020 20:04:26 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/04/2020 20:04:26 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/04/2020 20:04:26 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/04/2020 20:04:26 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/04/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/04/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/04/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/04/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/04/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/04/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/04/2020 20:06:37 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/04/2020 20:06:37 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/04/2020 20:06:37 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/04/2020 20:06:37 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/04/2020 20:06:37 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/04/2020 20:06:37 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/04/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/04/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/04/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/04/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/04/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/04/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/05/2020 20:00:01 Calling poke
+07/05/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/05/2020 20:01:01 Calling drip
+07/05/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/05/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/05/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/05/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/05/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/05/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/05/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/05/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/05/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/05/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/05/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/05/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/05/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/05/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/05/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/05/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/05/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/05/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/05/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/05/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/05/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/05/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/05/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/05/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/05/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/05/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/05/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/05/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/05/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/05/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/05/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/05/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/05/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/05/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/05/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/05/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/05/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/06/2020 20:00:01 Calling poke
+07/06/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/06/2020 20:01:01 Calling drip
+07/06/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/06/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/06/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/06/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/06/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/06/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/06/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/06/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/06/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/06/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/06/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/06/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/06/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/06/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/06/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/06/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/06/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/06/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/06/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/06/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/06/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/06/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/06/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/06/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/06/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/06/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/06/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/06/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/06/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/06/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/06/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/06/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/06/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/06/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/06/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/06/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/06/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/07/2020 20:00:01 Calling poke
+07/07/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/07/2020 20:01:01 Calling drip
+07/07/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/07/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/07/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/07/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/07/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/07/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/07/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/07/2020 20:03:11 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/07/2020 20:03:11 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/07/2020 20:03:11 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/07/2020 20:03:11 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/07/2020 20:03:11 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/07/2020 20:03:11 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/07/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/07/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/07/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/07/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/07/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/07/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/07/2020 20:05:22 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/07/2020 20:05:22 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/07/2020 20:05:22 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/07/2020 20:05:22 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/07/2020 20:05:22 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/07/2020 20:05:22 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/07/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/07/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/07/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/07/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/07/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/07/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/07/2020 20:07:33 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+07/07/2020 20:07:33 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+07/07/2020 20:07:33 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+07/07/2020 20:07:33 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+07/07/2020 20:07:33 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+07/07/2020 20:07:33 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+07/28/2020 20:00:01 Calling poke
+07/28/2020 20:00:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/28/2020 20:00:07 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/28/2020 20:01:01 Calling drip
+07/28/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/28/2020 20:01:03 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/29/2020 20:00:02 Calling poke
+07/29/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/29/2020 20:00:14 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/29/2020 20:01:02 Calling drip
+07/29/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/29/2020 20:01:04 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/30/2020 20:00:02 Calling poke
+07/30/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/30/2020 20:00:11 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/30/2020 20:01:01 Calling drip
+07/30/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/30/2020 20:01:03 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/31/2020 20:00:02 Calling poke
+07/31/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/31/2020 20:00:13 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+07/31/2020 20:01:01 Calling drip
+07/31/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+07/31/2020 20:01:04 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/01/2020 20:00:03 Calling poke
+08/01/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/01/2020 20:00:14 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/01/2020 20:01:01 Calling drip
+08/01/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/01/2020 20:01:03 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/02/2020 20:00:01 Calling poke
+08/02/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/02/2020 20:00:11 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/02/2020 20:01:02 Calling drip
+08/02/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/02/2020 20:01:04 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/03/2020 20:00:02 Calling poke
+08/03/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/03/2020 20:00:11 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/03/2020 20:01:01 Calling drip
+08/03/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/03/2020 20:01:03 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/04/2020 20:00:01 Calling poke
+08/04/2020 20:00:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/04/2020 20:01:01 Calling drip
+08/04/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/04/2020 20:02:16 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/04/2020 20:02:16 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/04/2020 20:02:16 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/04/2020 20:02:16 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/04/2020 20:02:16 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/04/2020 20:02:16 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/04/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/04/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/04/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/04/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/04/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/04/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/04/2020 20:04:27 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/04/2020 20:04:27 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/04/2020 20:04:27 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/04/2020 20:04:27 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/04/2020 20:04:27 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/04/2020 20:04:27 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/04/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/04/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/04/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/04/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/04/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/04/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/04/2020 20:06:38 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/04/2020 20:06:38 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/04/2020 20:06:38 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/04/2020 20:06:38 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/04/2020 20:06:38 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/04/2020 20:06:38 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/04/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/04/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/04/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/04/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/04/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/04/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/05/2020 20:00:01 Calling poke
+08/05/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/05/2020 20:01:01 Calling drip
+08/05/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/05/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/05/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/05/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/05/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/05/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/05/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/05/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/05/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/05/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/05/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/05/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/05/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/05/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/05/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/05/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/05/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/05/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/05/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/05/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/05/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/05/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/05/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/05/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/05/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/05/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/05/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/05/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/05/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/05/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/05/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/05/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/05/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/05/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/05/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/05/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/05/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/06/2020 20:00:01 Calling poke
+08/06/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/06/2020 20:01:01 Calling drip
+08/06/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/06/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/06/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/06/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/06/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/06/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/06/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/06/2020 20:03:11 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/06/2020 20:03:11 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/06/2020 20:03:11 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/06/2020 20:03:11 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/06/2020 20:03:11 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/06/2020 20:03:11 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/06/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/06/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/06/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/06/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/06/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/06/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/06/2020 20:05:22 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/06/2020 20:05:22 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/06/2020 20:05:22 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/06/2020 20:05:22 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/06/2020 20:05:22 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/06/2020 20:05:22 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/06/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/06/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/06/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/06/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/06/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/06/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/06/2020 20:07:33 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/06/2020 20:07:33 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/06/2020 20:07:33 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/06/2020 20:07:33 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/06/2020 20:07:33 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/06/2020 20:07:33 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/07/2020 20:00:01 Calling poke
+08/07/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/07/2020 20:01:01 Calling drip
+08/07/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/07/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/07/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/07/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/07/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/07/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/07/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/07/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/07/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/07/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/07/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/07/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/07/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/07/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/07/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/07/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/07/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/07/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/07/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/07/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/07/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/07/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/07/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/07/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/07/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/07/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/07/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/07/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/07/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/07/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/07/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/07/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/07/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/07/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/07/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/07/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/07/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/08/2020 20:00:02 Calling poke
+08/08/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/08/2020 20:00:12 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/08/2020 20:01:02 Calling drip
+08/08/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/08/2020 20:01:05 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/09/2020 20:00:02 Calling poke
+08/09/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/09/2020 20:00:11 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/09/2020 20:01:02 Calling drip
+08/09/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/09/2020 20:01:04 Ethereum account passphrase (not echoed): ethsign: failed to read passphrase
+08/10/2020 20:00:02 Calling poke
+08/10/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/10/2020 20:00:11 seth-send: Published transaction with 4 bytes of calldata.
+08/10/2020 20:00:11 seth-send: 0x0dd221a8b1e38d8655d54fc9dceb26f8af557fef78297612d166ad23571ad18b
+08/10/2020 20:00:22 seth-send: Waiting for transaction receipt.....
+08/10/2020 20:00:23 seth-send: Transaction included in block 20168221.
+08/10/2020 20:01:01 Calling drip
+08/10/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/10/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/10/2020 20:01:03 seth-send: 0x3044c80e38331d1fb858ccc232fd44cf7f9744fd66e64d9784c9f65888a612dc
+08/10/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/10/2020 20:01:10 seth-send: Transaction included in block 20168233.
+08/11/2020 20:00:01 Calling poke
+08/11/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/11/2020 20:00:13 seth-send: Published transaction with 4 bytes of calldata.
+08/11/2020 20:00:13 seth-send: 0x623a973d0d3f20bd372184c50ee762a92fcda318c1faa8c6948643426863d14f
+08/11/2020 20:00:19 seth-send: Waiting for transaction receipt....
+08/11/2020 20:00:20 seth-send: Transaction included in block 20189740.
+08/11/2020 20:01:01 Calling drip
+08/11/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/11/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+08/11/2020 20:01:04 seth-send: 0x905ff463d7732b982cbb6ed997913cf15130bbbb193564cd610fcb5730e5c028
+08/11/2020 20:01:10 seth-send: Waiting for transaction receipt....
+08/11/2020 20:01:10 seth-send: Transaction included in block 20189753.
+08/12/2020 20:00:01 Calling poke
+08/12/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/12/2020 20:00:13 seth-send: Published transaction with 4 bytes of calldata.
+08/12/2020 20:00:13 seth-send: 0x0fd0191ce637719cd0e3d08635f1720b9b8b30a900cfcd2c4263620072567d9f
+08/12/2020 20:00:19 seth-send: Waiting for transaction receipt....
+08/12/2020 20:00:20 seth-send: Transaction included in block 20211233.
+08/12/2020 20:01:01 Calling drip
+08/12/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/12/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/12/2020 20:01:03 seth-send: 0xbbf6c75c3829163af896fdd0e89df3f8ff5d2c9ccacf1433f26c4dc2a91ca41d
+08/12/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/12/2020 20:01:10 seth-send: Transaction included in block 20211244.
+08/13/2020 20:00:02 Calling poke
+08/13/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/13/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+08/13/2020 20:00:13 seth-send: 0xf734e28a7f60407f7e957a69616d7f17cb2b9db00fa5bebfc25ff2e937aa710c
+08/13/2020 20:00:19 seth-send: Waiting for transaction receipt....
+08/13/2020 20:00:19 seth-send: Transaction included in block 20232659.
+08/13/2020 20:01:02 Calling drip
+08/13/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/13/2020 20:01:05 seth-send: Published transaction with 36 bytes of calldata.
+08/13/2020 20:01:05 seth-send: 0xb187c0ce902bf3e399d1bd7837688f01cb633dc55ca4fbbc14115c4ef2d98742
+08/13/2020 20:01:11 seth-send: Waiting for transaction receipt....
+08/13/2020 20:01:12 seth-send: Transaction included in block 20232671.
+08/14/2020 20:00:01 Calling poke
+08/14/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/14/2020 20:00:04 seth-send: Published transaction with 4 bytes of calldata.
+08/14/2020 20:00:04 seth-send: 0x1a50fea4e48f820b59386df1363ae677b61ac9c71900ca49357cc036587173dc
+08/14/2020 20:00:15 seth-send: Waiting for transaction receipt.....
+08/14/2020 20:00:16 seth-send: Transaction included in block 20254115.
+08/14/2020 20:01:01 Calling drip
+08/14/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/14/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/14/2020 20:01:03 seth-send: 0xd6edd0db7f89ee67f905320e6c9c759aaa2b1f08e3fa808bb0b38683a5a1bd86
+08/14/2020 20:01:08 seth-send: Waiting for transaction receipt....
+08/14/2020 20:01:09 seth-send: Transaction included in block 20254128.
+08/15/2020 20:00:03 Calling poke
+08/15/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/15/2020 20:00:14 seth-send: Published transaction with 4 bytes of calldata.
+08/15/2020 20:00:14 seth-send: 0xa9d0cbde42821f3683f45b5cc78b62a655f3895cfbea283737eedd10529f8d31
+08/15/2020 20:00:20 seth-send: Waiting for transaction receipt....
+08/15/2020 20:00:20 seth-send: Transaction included in block 20275637.
+08/15/2020 20:01:02 Calling drip
+08/15/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/15/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+08/15/2020 20:01:04 seth-send: 0xb04252157279c038c082914a9df3df080ded24459c0b14ef0adec7c7f930d804
+08/15/2020 20:01:10 seth-send: Waiting for transaction receipt....
+08/15/2020 20:01:10 seth-send: Transaction included in block 20275649.
+08/16/2020 20:00:02 Calling poke
+08/16/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/16/2020 20:00:13 seth-send: Published transaction with 4 bytes of calldata.
+08/16/2020 20:00:13 seth-send: 0x5ce29cbcca98794f56a80ddb62bc270e84a2af3c014a24a7a090cf46227ca22e
+08/16/2020 20:00:19 seth-send: Waiting for transaction receipt....
+08/16/2020 20:00:20 seth-send: Transaction included in block 20297170.
+08/16/2020 20:01:01 Calling drip
+08/16/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/16/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/16/2020 20:01:03 seth-send: 0x4382810156171f6b1edc88b99001bbf2abb2c39d204939ca32c3d644a48a7f61
+08/16/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/16/2020 20:01:10 seth-send: Transaction included in block 20297183.
+08/17/2020 20:00:02 Calling poke
+08/17/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/17/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+08/17/2020 20:00:12 seth-send: 0x720a9c8f017be0991120efe4e51dcd3c2b4e61f5ac2aecb34510d7ce2d0d7a48
+08/17/2020 20:00:18 seth-send: Waiting for transaction receipt....
+08/17/2020 20:00:19 seth-send: Transaction included in block 20318596.
+08/17/2020 20:01:01 Calling drip
+08/17/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/17/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/17/2020 20:01:03 seth-send: 0x834170e62f45806037bdaa2ce20adf1c254acd32a88ad98d342cbbf0a4fa1cdb
+08/17/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/17/2020 20:01:10 seth-send: Transaction included in block 20318609.
+08/18/2020 20:00:02 Calling poke
+08/18/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/18/2020 20:00:10 seth-send: Published transaction with 4 bytes of calldata.
+08/18/2020 20:00:10 seth-send: 0x21a021a0f8823ed81007d6eda0e713008fe81dc1c0f683bda617b13afd8c5b4e
+08/18/2020 20:00:16 seth-send: Waiting for transaction receipt....
+08/18/2020 20:00:17 seth-send: Transaction included in block 20340053.
+08/18/2020 20:01:01 Calling drip
+08/18/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/18/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/18/2020 20:01:03 seth-send: 0x616cc46c553e880ae0451d44c18f0cd85d3e67650fb8c8de9d1ca7eb25700697
+08/18/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/18/2020 20:01:10 seth-send: Transaction included in block 20340065.
+08/19/2020 20:00:02 Calling poke
+08/19/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/19/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+08/19/2020 20:00:12 seth-send: 0x83bf15f670abfc2d3915a23c793549bfa57821996d21078909bb710cec416fdc
+08/19/2020 20:00:18 seth-send: Waiting for transaction receipt....
+08/19/2020 20:00:18 seth-send: Transaction included in block 20361518.
+08/19/2020 20:01:01 Calling drip
+08/19/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/19/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+08/19/2020 20:01:04 seth-send: 0x9bff182d0dadf233c3106c9c3489559942bd8ac4b6f6c820f563c18820ca8fe9
+08/19/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/19/2020 20:01:10 seth-send: Transaction included in block 20361531.
+08/20/2020 20:00:03 Calling poke
+08/20/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/20/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+08/20/2020 20:00:12 seth-send: 0xb9c43e498fc8e513676a06c11e458744c180ebd71241b08edb775019e34ffbb5
+08/20/2020 20:00:19 seth-send: Waiting for transaction receipt....
+08/20/2020 20:00:19 seth-send: Transaction included in block 20383035.
+08/20/2020 20:01:02 Calling drip
+08/20/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/20/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+08/20/2020 20:01:04 seth-send: 0x8d64c4b2c6fcf5b8ad643db69486bb6b99bfc3912a54e7fe01e8f6855fa9d488
+08/20/2020 20:01:10 seth-send: Waiting for transaction receipt....
+08/20/2020 20:01:10 seth-send: Transaction included in block 20383048.
+08/21/2020 20:00:02 Calling poke
+08/21/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/21/2020 20:00:11 seth-send: Published transaction with 4 bytes of calldata.
+08/21/2020 20:00:11 seth-send: 0x8593f6e3e23d5158b65abd52a853e1f24e062ac2a1b37dca6039dac84536346b
+08/21/2020 20:00:18 seth-send: Waiting for transaction receipt....
+08/21/2020 20:00:18 seth-send: Transaction included in block 20404598.
+08/21/2020 20:01:02 Calling drip
+08/21/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/21/2020 20:01:06 seth-send: Published transaction with 36 bytes of calldata.
+08/21/2020 20:01:06 seth-send: 0x47ad7d2e47a21f01a610ff5c0a78f0792059ab44bec6ab5d80a7e3ebd95bee62
+08/21/2020 20:01:12 seth-send: Waiting for transaction receipt....
+08/21/2020 20:01:12 seth-send: Transaction included in block 20404611.
+08/22/2020 20:00:01 Calling poke
+08/22/2020 20:00:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/22/2020 20:01:01 Calling drip
+08/22/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/22/2020 20:02:16 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/22/2020 20:02:16 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/22/2020 20:02:16 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/22/2020 20:02:16 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/22/2020 20:02:16 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/22/2020 20:02:16 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/22/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/22/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/22/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/22/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/22/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/22/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/22/2020 20:04:27 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/22/2020 20:04:27 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/22/2020 20:04:27 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/22/2020 20:04:27 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/22/2020 20:04:27 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/22/2020 20:04:27 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/22/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/22/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/22/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/22/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/22/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/22/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/22/2020 20:06:38 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/22/2020 20:06:38 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/22/2020 20:06:38 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/22/2020 20:06:38 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/22/2020 20:06:38 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/22/2020 20:06:38 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/22/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/22/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/22/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/22/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/22/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/22/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/23/2020 20:00:01 Calling poke
+08/23/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/23/2020 20:01:01 Calling drip
+08/23/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/23/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/23/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/23/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/23/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/23/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/23/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/23/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/23/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/23/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/23/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/23/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/23/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/23/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/23/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/23/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/23/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/23/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/23/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/23/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/23/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/23/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/23/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/23/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/23/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/23/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/23/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/23/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/23/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/23/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/23/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/23/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/23/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/23/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/23/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/23/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/23/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/24/2020 20:00:01 Calling poke
+08/24/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/24/2020 20:00:03 seth-send: Published transaction with 4 bytes of calldata.
+08/24/2020 20:00:03 seth-send: 0x84ba363a7b29160322d7a626a2e128aede75c9d1aa8d6f22a03e445d2ec3e7ee
+08/24/2020 20:01:01 Calling drip
+08/24/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/24/2020 20:01:03 seth-rpc: {"id":1,"jsonrpc":"2.0","method":"eth_sendRawTransaction","params":["0xf88b8202b5850218711a0083030d4094cbb7718c9f39d05aeede1c472ca8bf804b2f1ead80a444e2a5a84554482d4100000000000000000000000000000000000000000000000000000078a02e18f9009a2dcc3daf40a7f4a42e67da76690f3c3d7e0a05a45ec23535a31d26a02536a7ebd43c76711cf451125f2b5f93a64562d4aae430272539f673c2c219f1"]}
+08/24/2020 20:01:03 seth-rpc: error: code -32010
+08/24/2020 20:01:03 seth-rpc: error: message Transaction gas price supplied is too low. There is another transaction with same nonce in the queue. Try increasing the gas price or incrementing the nonce.
+08/25/2020 10:52:03 seth-send: Waiting for transaction receipt.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/25/2020 10:52:03 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/25/2020 10:52:03 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/25/2020 10:52:03 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/25/2020 10:52:03 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/25/2020 10:52:03 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/25/2020 20:00:02 Calling poke
+08/25/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/25/2020 20:00:15 seth-send: Published transaction with 4 bytes of calldata.
+08/25/2020 20:00:15 seth-send: 0x84ba363a7b29160322d7a626a2e128aede75c9d1aa8d6f22a03e445d2ec3e7ee
+08/25/2020 20:00:37 seth-send: Waiting for transaction receipt.......
+08/25/2020 20:00:38 seth-send: Transaction included in block 20490764.
+08/25/2020 20:01:01 Calling drip
+08/25/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/25/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/25/2020 20:01:03 seth-send: 0x531ff4ceff96c8087f7ef85a2c516cd1b224131508d9d961df91a5121e756bdc
+08/25/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/25/2020 20:01:10 seth-send: Transaction included in block 20490773.
+08/26/2020 20:00:01 Calling poke
+08/26/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/26/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+08/26/2020 20:00:12 seth-send: 0x539f1badb27d27ccc71dff2f042c4e9c0cc522d37f9b95d78ccbb88156863963
+08/26/2020 20:00:20 seth-send: Waiting for transaction receipt....
+08/26/2020 20:00:21 seth-send: Transaction included in block 20512205.
+08/26/2020 20:01:01 Calling drip
+08/26/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/26/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/26/2020 20:01:03 seth-send: 0x73936602668ee7882880854d062bb711a7a616055123f8617d7643aa993b603f
+08/26/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/26/2020 20:01:10 seth-send: Transaction included in block 20512217.
+08/27/2020 20:00:01 Calling poke
+08/27/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/27/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+08/27/2020 20:00:12 seth-send: 0x6923a864bcc6beca43fa7555bbbacb4c0b6cb301968717f8f5b0dc060d162f86
+08/27/2020 20:00:20 seth-send: Waiting for transaction receipt....
+08/27/2020 20:00:21 seth-send: Transaction included in block 20533765.
+08/27/2020 20:01:01 Calling drip
+08/27/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/27/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/27/2020 20:01:03 seth-send: 0xf7cb7af4b2648fc357a46922d363ee503d8121bc52bd9c645b4ac547249fd1db
+08/27/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/27/2020 20:01:10 seth-send: Transaction included in block 20533777.
+08/28/2020 20:00:02 Calling poke
+08/28/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/28/2020 20:00:15 seth-send: Published transaction with 4 bytes of calldata.
+08/28/2020 20:00:15 seth-send: 0x5ce4b6e57f63aa8f8208312123bfb7bec54f8e946c34d09cf987ff8a4c9869f9
+08/28/2020 20:00:26 seth-send: Waiting for transaction receipt.....
+08/28/2020 20:00:27 seth-send: Transaction included in block 20555294.
+08/28/2020 20:01:01 Calling drip
+08/28/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/28/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+08/28/2020 20:01:04 seth-send: 0x67bff5a67dff51a33594a36239c55696a318f61ed4ded82a5b444798450c74fd
+08/28/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/28/2020 20:01:10 seth-send: Transaction included in block 20555305.
+08/29/2020 20:00:02 Calling poke
+08/29/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/29/2020 20:00:14 seth-send: Published transaction with 4 bytes of calldata.
+08/29/2020 20:00:14 seth-send: 0xf215fe02d9ba21d8ca691eb04f6d0736ed9d6c01f8e5ee27f1aeb9dfa42a46a0
+08/29/2020 20:00:20 seth-send: Waiting for transaction receipt....
+08/29/2020 20:00:21 seth-send: Transaction included in block 20576839.
+08/29/2020 20:01:01 Calling drip
+08/29/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/29/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+08/29/2020 20:01:04 seth-send: 0xcfc7a7bda81a95e6f5f7161287ed313dc801c9ae063964f580f7d6469c225def
+08/29/2020 20:01:10 seth-send: Waiting for transaction receipt....
+08/29/2020 20:01:10 seth-send: Transaction included in block 20576852.
+08/30/2020 20:00:02 Calling poke
+08/30/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/30/2020 20:00:13 seth-send: Published transaction with 4 bytes of calldata.
+08/30/2020 20:00:13 seth-send: 0xe97ee516df8115230aac0f5afc0c925bd93ed8acb3fc9736d4a1838a58c3798b
+08/30/2020 20:00:19 seth-send: Waiting for transaction receipt....
+08/30/2020 20:00:20 seth-send: Transaction included in block 20598377.
+08/30/2020 20:01:01 Calling drip
+08/30/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/30/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+08/30/2020 20:01:03 seth-send: 0xca51cceddb86d9ef2c7c8e53f6d79feda460dc46b51d8c610f9663ec34f844ad
+08/30/2020 20:01:09 seth-send: Waiting for transaction receipt....
+08/30/2020 20:01:10 seth-send: Transaction included in block 20598390.
+08/31/2020 20:00:01 Calling poke
+08/31/2020 20:00:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/31/2020 20:01:01 Calling drip
+08/31/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+08/31/2020 20:02:15 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/31/2020 20:02:15 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/31/2020 20:02:15 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/31/2020 20:02:15 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/31/2020 20:02:15 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/31/2020 20:02:15 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/31/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/31/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/31/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/31/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/31/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/31/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/31/2020 20:04:26 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/31/2020 20:04:26 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/31/2020 20:04:26 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/31/2020 20:04:26 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/31/2020 20:04:26 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/31/2020 20:04:26 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/31/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/31/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/31/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/31/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/31/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/31/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/31/2020 20:06:37 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/31/2020 20:06:37 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/31/2020 20:06:37 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/31/2020 20:06:37 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/31/2020 20:06:37 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/31/2020 20:06:37 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+08/31/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+08/31/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+08/31/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+08/31/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+08/31/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+08/31/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/01/2020 20:00:02 Calling poke
+09/01/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/01/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+09/01/2020 20:00:12 seth-send: 0xd301a9c037ca74b1a127641c7de820538e737b50abc78fcb593fab5aab61e175
+09/01/2020 20:00:18 seth-send: Waiting for transaction receipt....
+09/01/2020 20:00:19 seth-send: Transaction included in block 20641396.
+09/01/2020 20:01:01 Calling drip
+09/01/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/01/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+09/01/2020 20:01:04 seth-send: 0x69e0691288bfe740cf5118fb2652411071e81dd51287c8f4dc5e9a609c05c04e
+09/01/2020 20:01:10 seth-send: Waiting for transaction receipt....
+09/01/2020 20:01:10 seth-send: Transaction included in block 20641409.
+09/02/2020 20:00:02 Calling poke
+09/02/2020 20:00:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/02/2020 20:00:15 seth-send: Published transaction with 4 bytes of calldata.
+09/02/2020 20:00:15 seth-send: 0x977ab12374b05eae836a4899ba75c95387bcd36b93c2172176c77f7765a935c6
+09/02/2020 20:00:21 seth-send: Waiting for transaction receipt....
+09/02/2020 20:00:22 seth-send: Transaction included in block 20662883.
+09/02/2020 20:01:01 Calling drip
+09/02/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/02/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+09/02/2020 20:01:03 seth-send: 0x47002b192e189100bb119db888336b9d0bf1d9d77e661ff9868960142e0dfa5f
+09/02/2020 20:01:09 seth-send: Waiting for transaction receipt....
+09/02/2020 20:01:09 seth-send: Transaction included in block 20662895.
+09/03/2020 20:00:02 Calling poke
+09/03/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/03/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+09/03/2020 20:00:12 seth-send: 0xdeda28fbf7fe2f48b67790ea5b8d36f3da993295af592c7fb91d79bfa93130d7
+09/03/2020 20:00:19 seth-send: Waiting for transaction receipt....
+09/03/2020 20:00:19 seth-send: Transaction included in block 20684343.
+09/03/2020 20:01:02 Calling drip
+09/03/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/03/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+09/03/2020 20:01:04 seth-send: 0x518e0235636532e60f8497535505305b2334e8beae3150344f09980075a7a534
+09/03/2020 20:01:10 seth-send: Waiting for transaction receipt....
+09/03/2020 20:01:10 seth-send: Transaction included in block 20684356.
+09/04/2020 20:00:02 Calling poke
+09/04/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/04/2020 20:00:11 seth-send: Published transaction with 4 bytes of calldata.
+09/04/2020 20:00:11 seth-send: 0x5f03d696ae3e114a7ceb0cba5882d06c6af60d38e5a4dbb2603c44cf18a18942
+09/04/2020 20:00:17 seth-send: Waiting for transaction receipt....
+09/04/2020 20:00:18 seth-send: Transaction included in block 20705907.
+09/04/2020 20:01:01 Calling drip
+09/04/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/04/2020 20:01:03 seth-send: Published transaction with 36 bytes of calldata.
+09/04/2020 20:01:03 seth-send: 0x98060c710dc03c3714b3c3b78cf628c8ad4a202eecbf5c3b741765eb1381e12e
+09/04/2020 20:01:09 seth-send: Waiting for transaction receipt....
+09/04/2020 20:01:10 seth-send: Transaction included in block 20705920.
+09/05/2020 20:00:02 Calling poke
+09/05/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/05/2020 20:00:13 seth-send: Published transaction with 4 bytes of calldata.
+09/05/2020 20:00:13 seth-send: 0x0194ebd597ea7e1dbd3f8276b94d12e4f6ebfba62c70b0056d850cfd74798dd0
+09/05/2020 20:00:22 seth-send: Waiting for transaction receipt....
+09/05/2020 20:00:22 seth-send: Transaction included in block 20727482.
+09/05/2020 20:01:02 Calling drip
+09/05/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/05/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+09/05/2020 20:01:04 seth-send: 0xe22f73cd180dcc08e9fcae7bb195a6f846f3b9bab9ef3e1d86e15b6ae747d9b7
+09/05/2020 20:01:10 seth-send: Waiting for transaction receipt....
+09/05/2020 20:01:10 seth-send: Transaction included in block 20727495.
+09/06/2020 20:00:02 Calling poke
+09/06/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/06/2020 20:00:16 seth-send: Published transaction with 4 bytes of calldata.
+09/06/2020 20:00:16 seth-send: 0x139563ada7da3cb91906dc5d40f0bb2ab1eb46b5fcec7f3ea9ded4247ec04e75
+09/06/2020 20:00:22 seth-send: Waiting for transaction receipt....
+09/06/2020 20:00:23 seth-send: Transaction included in block 20749043.
+09/06/2020 20:01:01 Calling drip
+09/06/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/06/2020 20:01:04 seth-send: Published transaction with 36 bytes of calldata.
+09/06/2020 20:01:04 seth-send: 0x3447006e7a9bcde213bb9163656baf97736a5554d674adfceb89f921e3d03563
+09/06/2020 20:01:09 seth-send: Waiting for transaction receipt....
+09/06/2020 20:01:10 seth-send: Transaction included in block 20749055.
+09/07/2020 20:00:04 Calling poke
+09/07/2020 20:00:05 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/07/2020 20:00:14 seth-send: Published transaction with 4 bytes of calldata.
+09/07/2020 20:00:14 seth-send: 0x5d63a7b6c64e9629f6316904012c5a890bc380fcb2e3f78aa3de2fd33ed6b0e8
+09/07/2020 20:00:22 seth-send: Waiting for transaction receipt....
+09/07/2020 20:00:22 seth-send: Transaction included in block 20770315.
+09/07/2020 20:01:02 Calling drip
+09/07/2020 20:01:03 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/07/2020 20:01:07 seth-send: Published transaction with 36 bytes of calldata.
+09/07/2020 20:01:07 seth-send: 0x27cadfadf32f3f5f44515c9cdaa6199b6b4bd70833126d720b3a68385cf3f390
+09/07/2020 20:01:13 seth-send: Waiting for transaction receipt....
+09/07/2020 20:01:14 seth-send: Transaction included in block 20770327.
+09/08/2020 20:00:02 Calling poke
+09/08/2020 20:00:04 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/08/2020 20:00:12 seth-send: Published transaction with 4 bytes of calldata.
+09/08/2020 20:00:12 seth-send: 0x2816a41446b343db4fee94eb257d53e1fed1e411eddc59d31c050804808c92a1
+09/08/2020 20:00:19 seth-send: Waiting for transaction receipt....
+09/08/2020 20:00:20 seth-send: Transaction included in block 20791807.
+09/08/2020 20:01:01 Calling drip
+09/08/2020 20:01:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/08/2020 20:01:07 seth-send: Published transaction with 36 bytes of calldata.
+09/08/2020 20:01:08 seth-send: 0x85800cb232ab4fb52e4d8d8087d32c9cb7703a0fe75b1ab27772ee2e0797e35a
+09/08/2020 20:01:13 seth-send: Waiting for transaction receipt....
+09/08/2020 20:01:14 seth-send: Transaction included in block 20791821.
+09/09/2020 20:00:01 Calling poke
+09/09/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/09/2020 20:01:01 Calling drip
+09/09/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/09/2020 20:02:14 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/09/2020 20:02:14 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/09/2020 20:02:14 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/09/2020 20:02:14 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/09/2020 20:02:14 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/09/2020 20:02:14 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/09/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/09/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/09/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/09/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/09/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/09/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/09/2020 20:04:25 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/09/2020 20:04:25 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/09/2020 20:04:25 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/09/2020 20:04:25 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/09/2020 20:04:25 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/09/2020 20:04:25 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/09/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/09/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/09/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/09/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/09/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/09/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/09/2020 20:06:36 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/09/2020 20:06:36 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/09/2020 20:06:36 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/09/2020 20:06:36 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/09/2020 20:06:36 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/09/2020 20:06:36 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/09/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/09/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/09/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/09/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/09/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/09/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/10/2020 20:00:01 Calling poke
+09/10/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/10/2020 20:01:01 Calling drip
+09/10/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/10/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/10/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/10/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/10/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/10/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/10/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/10/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/10/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/10/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/10/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/10/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/10/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/10/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/10/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/10/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/10/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/10/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/10/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/10/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/10/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/10/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/10/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/10/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/10/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/10/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/10/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/10/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/10/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/10/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/10/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/10/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/10/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/10/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/10/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/10/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/10/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/11/2020 20:00:01 Calling poke
+09/11/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/11/2020 20:01:01 Calling drip
+09/11/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/11/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/11/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/11/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/11/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/11/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/11/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/11/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/11/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/11/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/11/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/11/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/11/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/11/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/11/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/11/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/11/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/11/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/11/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/11/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/11/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/11/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/11/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/11/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/11/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/11/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/11/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/11/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/11/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/11/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/11/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/11/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/11/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/11/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/11/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/11/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/11/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/12/2020 20:00:01 Calling poke
+09/12/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/12/2020 20:01:01 Calling drip
+09/12/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/12/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/12/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/12/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/12/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/12/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/12/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/12/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/12/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/12/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/12/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/12/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/12/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/12/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/12/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/12/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/12/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/12/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/12/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/12/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/12/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/12/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/12/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/12/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/12/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/12/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/12/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/12/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/12/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/12/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/12/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/12/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/12/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/12/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/12/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/12/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/12/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/13/2020 20:00:01 Calling poke
+09/13/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/13/2020 20:01:01 Calling drip
+09/13/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/13/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/13/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/13/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/13/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/13/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/13/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/13/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/13/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/13/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/13/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/13/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/13/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/13/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/13/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/13/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/13/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/13/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/13/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/13/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/13/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/13/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/13/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/13/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/13/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/13/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/13/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/13/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/13/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/13/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/13/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/13/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/13/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/13/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/13/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/13/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/13/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/14/2020 20:00:01 Calling poke
+09/14/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/14/2020 20:01:01 Calling drip
+09/14/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/14/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/14/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/14/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/14/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/14/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/14/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/14/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/14/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/14/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/14/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/14/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/14/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/14/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/14/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/14/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/14/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/14/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/14/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/14/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/14/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/14/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/14/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/14/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/14/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/14/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/14/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/14/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/14/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/14/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/14/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/14/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/14/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/14/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/14/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/14/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/14/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/15/2020 20:00:01 Calling poke
+09/15/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/15/2020 20:01:01 Calling drip
+09/15/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/15/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/15/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/15/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/15/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/15/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/15/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/15/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/15/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/15/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/15/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/15/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/15/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/15/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/15/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/15/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/15/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/15/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/15/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/15/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/15/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/15/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/15/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/15/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/15/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/15/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/15/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/15/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/15/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/15/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/15/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/15/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/15/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/15/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/15/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/15/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/15/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/16/2020 20:00:01 Calling poke
+09/16/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/16/2020 20:01:01 Calling drip
+09/16/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/16/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/16/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/16/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/16/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/16/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/16/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/16/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/16/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/16/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/16/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/16/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/16/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/16/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/16/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/16/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/16/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/16/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/16/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/16/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/16/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/16/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/16/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/16/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/16/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/16/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/16/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/16/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/16/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/16/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/16/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/16/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/16/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/16/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/16/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/16/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/16/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/17/2020 20:00:01 Calling poke
+09/17/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/17/2020 20:01:01 Calling drip
+09/17/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/17/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/17/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/17/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/17/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/17/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/17/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/17/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/17/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/17/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/17/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/17/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/17/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/17/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/17/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/17/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/17/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/17/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/17/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/17/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/17/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/17/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/17/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/17/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/17/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/17/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/17/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/17/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/17/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/17/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/17/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/17/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/17/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/17/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/17/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/17/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/17/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/18/2020 20:00:01 Calling poke
+09/18/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/18/2020 20:01:01 Calling drip
+09/18/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/18/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/18/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/18/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/18/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/18/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/18/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/18/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/18/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/18/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/18/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/18/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/18/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/18/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/18/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/18/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/18/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/18/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/18/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/18/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/18/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/18/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/18/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/18/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/18/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/18/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/18/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/18/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/18/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/18/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/18/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/18/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/18/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/18/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/18/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/18/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/18/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/19/2020 20:00:01 Calling poke
+09/19/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/19/2020 20:01:01 Calling drip
+09/19/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/19/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/19/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/19/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/19/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/19/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/19/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/19/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/19/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/19/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/19/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/19/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/19/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/19/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/19/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/19/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/19/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/19/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/19/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/19/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/19/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/19/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/19/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/19/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/19/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/19/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/19/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/19/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/19/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/19/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/19/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/19/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/19/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/19/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/19/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/19/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/19/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/20/2020 20:00:01 Calling poke
+09/20/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/20/2020 20:01:01 Calling drip
+09/20/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/20/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/20/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/20/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/20/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/20/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/20/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/20/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/20/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/20/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/20/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/20/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/20/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/20/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/20/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/20/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/20/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/20/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/20/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/20/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/20/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/20/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/20/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/20/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/20/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/20/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/20/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/20/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/20/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/20/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/20/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/20/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/20/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/20/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/20/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/20/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/20/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/21/2020 20:00:01 Calling poke
+09/21/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/21/2020 20:01:01 Calling drip
+09/21/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/21/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/21/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/21/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/21/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/21/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/21/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/21/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/21/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/21/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/21/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/21/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/21/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/21/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/21/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/21/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/21/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/21/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/21/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/21/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/21/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/21/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/21/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/21/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/21/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/21/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/21/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/21/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/21/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/21/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/21/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/21/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/21/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/21/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/21/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/21/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/21/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/22/2020 20:00:01 Calling poke
+09/22/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/22/2020 20:01:01 Calling drip
+09/22/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/22/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/22/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/22/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/22/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/22/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/22/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/22/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/22/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/22/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/22/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/22/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/22/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/22/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/22/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/22/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/22/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/22/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/22/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/22/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/22/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/22/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/22/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/22/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/22/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/22/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/22/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/22/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/22/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/22/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/22/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/22/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/22/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/22/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/22/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/22/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/22/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/23/2020 20:00:01 Calling poke
+09/23/2020 20:00:02 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/23/2020 20:01:01 Calling drip
+09/23/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/23/2020 20:02:14 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/23/2020 20:02:14 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/23/2020 20:02:14 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/23/2020 20:02:14 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/23/2020 20:02:14 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/23/2020 20:02:14 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/23/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/23/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/23/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/23/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/23/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/23/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/23/2020 20:04:25 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/23/2020 20:04:25 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/23/2020 20:04:25 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/23/2020 20:04:25 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/23/2020 20:04:25 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/23/2020 20:04:25 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/23/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/23/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/23/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/23/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/23/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/23/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/23/2020 20:06:36 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/23/2020 20:06:36 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/23/2020 20:06:36 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/23/2020 20:06:36 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/23/2020 20:06:36 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/23/2020 20:06:36 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/23/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/23/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/23/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/23/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/23/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/23/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/24/2020 20:00:01 Calling poke
+09/24/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/24/2020 20:01:01 Calling drip
+09/24/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/24/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/24/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/24/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/24/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/24/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/24/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/24/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/24/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/24/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/24/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/24/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/24/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/24/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/24/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/24/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/24/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/24/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/24/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/24/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/24/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/24/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/24/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/24/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/24/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/24/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/24/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/24/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/24/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/24/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/24/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/24/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/24/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/24/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/24/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/24/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/24/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/25/2020 20:00:01 Calling poke
+09/25/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/25/2020 20:01:01 Calling drip
+09/25/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/25/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/25/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/25/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/25/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/25/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/25/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/25/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/25/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/25/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/25/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/25/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/25/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/25/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/25/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/25/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/25/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/25/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/25/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/25/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/25/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/25/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/25/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/25/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/25/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/25/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/25/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/25/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/25/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/25/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/25/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/25/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/25/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/25/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/25/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/25/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/25/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/26/2020 20:00:01 Calling poke
+09/26/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/26/2020 20:01:01 Calling drip
+09/26/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/26/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/26/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/26/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/26/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/26/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/26/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/26/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/26/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/26/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/26/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/26/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/26/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/26/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/26/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/26/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/26/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/26/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/26/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/26/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/26/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/26/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/26/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/26/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/26/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/26/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/26/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/26/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/26/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/26/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/26/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/26/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/26/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/26/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/26/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/26/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/26/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/27/2020 20:00:01 Calling poke
+09/27/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/27/2020 20:01:01 Calling drip
+09/27/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/27/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/27/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/27/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/27/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/27/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/27/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/27/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/27/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/27/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/27/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/27/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/27/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/27/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/27/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/27/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/27/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/27/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/27/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/27/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/27/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/27/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/27/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/27/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/27/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/27/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/27/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/27/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/27/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/27/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/27/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/27/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/27/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/27/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/27/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/27/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/27/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/28/2020 20:00:01 Calling poke
+09/28/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/28/2020 20:01:01 Calling drip
+09/28/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/28/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/28/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/28/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/28/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/28/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/28/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/28/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/28/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/28/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/28/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/28/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/28/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/28/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/28/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/28/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/28/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/28/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/28/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/28/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/28/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/28/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/28/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/28/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/28/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/28/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/28/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/28/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/28/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/28/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/28/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/28/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/28/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/28/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/28/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/28/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/28/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/29/2020 20:00:01 Calling poke
+09/29/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/29/2020 20:01:01 Calling drip
+09/29/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/29/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/29/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/29/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/29/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/29/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/29/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/29/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/29/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/29/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/29/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/29/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/29/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/29/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/29/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/29/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/29/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/29/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/29/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/29/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/29/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/29/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/29/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/29/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/29/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/29/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/29/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/29/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/29/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/29/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/29/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/29/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/29/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/29/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/29/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/29/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/29/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/30/2020 20:00:01 Calling poke
+09/30/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/30/2020 20:01:01 Calling drip
+09/30/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+09/30/2020 20:02:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/30/2020 20:02:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/30/2020 20:02:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/30/2020 20:02:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/30/2020 20:02:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/30/2020 20:02:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/30/2020 20:03:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/30/2020 20:03:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/30/2020 20:03:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/30/2020 20:03:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/30/2020 20:03:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/30/2020 20:03:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/30/2020 20:04:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/30/2020 20:04:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/30/2020 20:04:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/30/2020 20:04:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/30/2020 20:04:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/30/2020 20:04:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/30/2020 20:05:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/30/2020 20:05:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/30/2020 20:05:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/30/2020 20:05:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/30/2020 20:05:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/30/2020 20:05:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/30/2020 20:06:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/30/2020 20:06:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/30/2020 20:06:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/30/2020 20:06:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/30/2020 20:06:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/30/2020 20:06:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+09/30/2020 20:07:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+09/30/2020 20:07:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+09/30/2020 20:07:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+09/30/2020 20:07:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+09/30/2020 20:07:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+09/30/2020 20:07:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+10/01/2020 20:00:01 Calling poke
+10/01/2020 20:00:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+10/01/2020 20:01:01 Calling drip
+10/01/2020 20:01:01 seth-send: warning: `ETH_GAS' not set; using default gas amount
+10/01/2020 20:02:12 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+10/01/2020 20:02:12 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+10/01/2020 20:02:12 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+10/01/2020 20:02:12 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+10/01/2020 20:02:12 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+10/01/2020 20:02:12 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+10/01/2020 20:03:13 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+10/01/2020 20:03:13 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+10/01/2020 20:03:13 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+10/01/2020 20:03:13 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+10/01/2020 20:03:13 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+10/01/2020 20:03:13 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+10/01/2020 20:04:23 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+10/01/2020 20:04:23 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+10/01/2020 20:04:23 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+10/01/2020 20:04:23 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+10/01/2020 20:04:23 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+10/01/2020 20:04:23 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+10/01/2020 20:05:24 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+10/01/2020 20:05:24 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+10/01/2020 20:05:24 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+10/01/2020 20:05:24 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+10/01/2020 20:05:24 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+10/01/2020 20:05:24 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+10/01/2020 20:06:34 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+10/01/2020 20:06:34 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+10/01/2020 20:06:34 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+10/01/2020 20:06:34 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+10/01/2020 20:06:34 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+10/01/2020 20:06:34 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.
+10/01/2020 20:07:35 curl: (7) Failed to connect to localhost port 8545: Connection timed out
+10/01/2020 20:07:35 seth-rpc-curl: Please make sure that you are running a local Ethereum node:
+10/01/2020 20:07:35 seth-rpc-curl: For example, try running either `parity' or `geth --rpc'.
+10/01/2020 20:07:35 seth-rpc-curl: You could also try connecting to an external Ethereum node:
+10/01/2020 20:07:35 seth-rpc-curl: For example, try `export ETH_RPC_URL=https://mainnet.infura.io'.
+10/01/2020 20:07:35 seth-rpc-curl: If you have an Infura API key, add it to the end of the URL.

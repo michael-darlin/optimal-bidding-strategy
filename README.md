@@ -1,0 +1,4 @@
+# Optimal Bidding Strategy
+This repository documents the data analysis performed for the paper "Optimal Bidding Strategy for Maker Auctions" ([ArXiv](https://arxiv.org/abs/2009.07086)), co-authored by Michael Darlin, Nikolaos Papadis, and Leandros Tassiulas. The repository has two main folders:
+- `bot`: This folder contains the files needed to run a liquidation bot for Maker Protocol auctions (under version 1.0 of the Maker liquidation system). The folder also contains data on all ETH-A flip auctions analyzed in the research paper, in the form of a SQL data dump.
+- `paper`: This folder contains the files used to write the research paper. The sub-folder `docs` contains documentation to support all amounts used in the paper, while the sub-folder `images` contains all figures used in the paper.

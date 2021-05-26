@@ -1,0 +1,41 @@
+{"id": "2712", "bid": "187.539774413843003248500000000000000000000000000", "lot": "1.500000000000000000", "beg": "1.030000000000000000", "guy": "0xd536eA64B9865059fc5e2D8BFd9Aa9bF677722f3", "era": 1593008408, "tic": 1593008900, "end": 1593092244, "price": "125.026516275895335499", "tab": "271.632660661667542466124222654841459984175765533", "flipper": "0xB40139Ea36D35d0C9F6a2e62601B616F1FfbBD1b"}
+
+{"price":"122.998671496714472803","gasPrice":"57000000000"}
+{"price":"123.00275603284420485","gasPrice":"57000000000"}Step 1 of 4: Connected to contracts
+Step 2 of 4: Verified allowance amount
+Step 3 of 4: Calculated implicit price
+Step 4 of 4: Executed trade
+Transaction hash: 0xde56dea10fb9cfa6d2c871e50c28f61ce7cb8dbaadab044e0e1422fb823f0811
+
+Final results
+30.0 WETH was traded for 30.0 DAI
+The implicit price for WETH was 124.334426167712140484 per unit
+The price obtained from this trade was 1.0 per unit
+The slippage amount was 0.991957175250472297
+amount: 30.0
+amountRaw: 30.0
+amountStr: 30.0
+amountWei: BigNumber { _hex: '0x01a055690d9db80000', _isBigNumber: true }
+tradePriceRaw: 30000000000000000000
+tradePriceStr: 30000000000000000000
+tradePriceWei: BigNumber { _hex: '0x01a055690d9db80000', _isBigNumber: true }
+tradePriceWeiPer: BigNumber { _hex: '0x0de0b6b3a7640000', _isBigNumber: true }
+implicitPriceRaw: FixedNumber {
+  format: FixedFormat {
+    signed: true,
+    width: 128,
+    decimals: 18,
+    name: 'fixed128x18',
+    _multiplier: '1000000000000000000'
+  },
+  _hex: '0x06bd7c9dd8f683ccc4',
+  _value: '124.334426167712140484',
+  _isFixedNumber: true
+}
+implicitPriceWei: BigNumber { _hex: '0x06bd7c9dd8f683ccc4', _isBigNumber: true }
+implicitPriceStr: 124.334426167712140484
+Difference: BigNumber { _hex: '0x06af9be7254f1fccc4', _isBigNumber: true }
+Slippage: BigNumber { _hex: '0x0dc423cb97344d69', _isBigNumber: true }
+Step 1 of 4: Connected to contracts
+Step 2 of 4: Verified allowance amount
+Step 3 of 4: Calculated implicit price
